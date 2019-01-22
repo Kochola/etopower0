@@ -9,3 +9,6 @@ select * from metrics;
 // Adding more
 
 select * from writer_levels
+// more classes
+
+select * from nothing
