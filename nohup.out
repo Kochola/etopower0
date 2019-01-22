@@ -1,0 +1,1062 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: methods
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+2018-09-17 10:54:25> Default Google Project for googleAnalyticsR is now set.  
+ This is shared with all googleAnalyticsR users. 
+ If making a lot of API calls, please: 
+ 1) create your own Google Project at https://console.developers.google.com 
+ 2) Activate the Google Analytics Reporting API 
+ 3) set options(googleAuthR.client_id) and options(googleAuthR.client_secret) 
+ 4) Reload the package.
+2018-09-17 10:54:25> Set API cache
+2018-09-17 10:54:25> No environment argument found, looked in GA_AUTH_FILE
+
+Attaching package: 'elastic'
+
+The following objects are masked from 'package:dplyr':
+
+    count, explain
+
+-- Attaching packages --------------------------------------- tidyverse 1.2.1 --
+<U+221A> ggplot2 3.0.0     <U+221A> readr   1.1.1
+<U+221A> tibble  1.4.2     <U+221A> purrr   0.2.5
+<U+221A> tidyr   0.8.1     <U+221A> stringr 1.3.1
+<U+221A> ggplot2 3.0.0     <U+221A> forcats 0.3.0
+-- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x lubridate::as.difftime() masks base::as.difftime()
+x elastic::count()         masks dplyr::count()
+x lubridate::date()        masks base::date()
+x elastic::explain()       masks dplyr::explain()
+x dplyr::filter()          masks stats::filter()
+x lubridate::intersect()   masks base::intersect()
+x dplyr::lag()             masks stats::lag()
+x lubridate::setdiff()     masks base::setdiff()
+x lubridate::union()       masks base::union()
+Loading required package: DBI
+
+Attaching package: 'data.table'
+
+The following object is masked from 'package:purrr':
+
+    transpose
+
+The following objects are masked from 'package:lubridate':
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+The following objects are masked from 'package:dplyr':
+
+    between, first, last
+
+
+Attaching package: 'reshape2'
+
+The following objects are masked from 'package:data.table':
+
+    dcast, melt
+
+The following object is masked from 'package:tidyr':
+
+    smiths
+
+[[1]]
+[1] "dplyr"     "stats"     "graphics"  "grDevices" "utils"     "datasets" 
+[7] "base"     
+
+[[2]]
+[1] "lubridate" "methods"   "dplyr"     "stats"     "graphics"  "grDevices"
+[7] "utils"     "datasets"  "base"     
+
+[[3]]
+ [1] "googleAnalyticsR" "lubridate"        "methods"          "dplyr"           
+ [5] "stats"            "graphics"         "grDevices"        "utils"           
+ [9] "datasets"         "base"            
+
+[[4]]
+ [1] "elastic"          "googleAnalyticsR" "lubridate"        "methods"         
+ [5] "dplyr"            "stats"            "graphics"         "grDevices"       
+ [9] "utils"            "datasets"         "base"            
+
+[[5]]
+ [1] "forcats"          "stringr"          "purrr"            "readr"           
+ [5] "tidyr"            "tibble"           "ggplot2"          "tidyverse"       
+ [9] "elastic"          "googleAnalyticsR" "lubridate"        "methods"         
+[13] "dplyr"            "stats"            "graphics"         "grDevices"       
+[17] "utils"            "datasets"         "base"            
+
+[[6]]
+ [1] "RPostgreSQL"      "DBI"              "forcats"          "stringr"         
+ [5] "purrr"            "readr"            "tidyr"            "tibble"          
+ [9] "ggplot2"          "tidyverse"        "elastic"          "googleAnalyticsR"
+[13] "lubridate"        "methods"          "dplyr"            "stats"           
+[17] "graphics"         "grDevices"        "utils"            "datasets"        
+[21] "base"            
+
+[[7]]
+ [1] "data.table"       "RPostgreSQL"      "DBI"              "forcats"         
+ [5] "stringr"          "purrr"            "readr"            "tidyr"           
+ [9] "tibble"           "ggplot2"          "tidyverse"        "elastic"         
+[13] "googleAnalyticsR" "lubridate"        "methods"          "dplyr"           
+[17] "stats"            "graphics"         "grDevices"        "utils"           
+[21] "datasets"         "base"            
+
+[[8]]
+ [1] "googlesheets"     "data.table"       "RPostgreSQL"      "DBI"             
+ [5] "forcats"          "stringr"          "purrr"            "readr"           
+ [9] "tidyr"            "tibble"           "ggplot2"          "tidyverse"       
+[13] "elastic"          "googleAnalyticsR" "lubridate"        "methods"         
+[17] "dplyr"            "stats"            "graphics"         "grDevices"       
+[21] "utils"            "datasets"         "base"            
+
+[[9]]
+ [1] "reshape2"         "googlesheets"     "data.table"       "RPostgreSQL"     
+ [5] "DBI"              "forcats"          "stringr"          "purrr"           
+ [9] "readr"            "tidyr"            "tibble"           "ggplot2"         
+[13] "tidyverse"        "elastic"          "googleAnalyticsR" "lubridate"       
+[17] "methods"          "dplyr"            "stats"            "graphics"        
+[21] "grDevices"        "utils"            "datasets"         "base"            
+
+2018-09-17 10:54:34> No environment argument found, looked in GAR_AUTH_FILE
+Found http or https on es_host, stripping off, see the docs
+transport:  https 
+host:       5773f4154efe02be2fc5c589483249ac.eu-west-1.aws.found.io 
+port:       9243 
+path:       NULL 
+username:   busara 
+password:   <secret> 
+errors:     simple 
+headers (names):  NULL 
+[1] "Mining Dimension: dimension3"
+2018-09-17 10:54:39> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:54:39> Finding how much sampling in data request...
+2018-09-17 10:54:40> Calling APIv4....
+2018-09-17 10:54:40> Single v4 batch
+2018-09-17 10:54:40> Skipping token checks as using cache
+2018-09-17 10:54:40> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:54:40> Making new cache
+2018-09-17 10:54:40> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension3"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:54:49> Downloaded [10] rows from a total of [13].
+2018-09-17 10:54:49> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:54:49> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:54:50> Calling APIv4....
+2018-09-17 10:54:50> Single v4 batch
+2018-09-17 10:54:50> Skipping token checks as using cache
+2018-09-17 10:54:50> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:54:51> Making new cache
+2018-09-17 10:54:51> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"DEFAULT","dimensions":[{"name":"ga:date"}],"metrics":[{"expression":"ga:sessions","alias":"sessions","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:54:53> Downloaded [1] rows from a total of [1].
+2018-09-17 10:54:53> Calculated [1] batches are needed to download approx. [16] rows unsampled.
+2018-09-17 10:54:53> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:54:53> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:54:53> Calling APIv4....
+2018-09-17 10:54:53> Single v4 batch
+2018-09-17 10:54:53> Skipping token checks as using cache
+2018-09-17 10:54:53> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:54:53> Making new cache
+2018-09-17 10:54:53> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension3"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:00> Downloaded [13] rows from a total of [13].
+2018-09-17 10:55:00> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:00> Anti-sampling failed
+2018-09-17 10:55:02> Finished unsampled data request, total rows [13]
+[1] "Mining Dimension: dimension4"
+2018-09-17 10:55:02> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:02> Finding how much sampling in data request...
+2018-09-17 10:55:02> Calling APIv4....
+2018-09-17 10:55:02> Single v4 batch
+2018-09-17 10:55:02> Skipping token checks as using cache
+2018-09-17 10:55:02> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:02> Making new cache
+2018-09-17 10:55:02> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension4"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:06> Downloaded [10] rows from a total of [16].
+2018-09-17 10:55:06> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:06> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:55:06> Calling APIv4....
+2018-09-17 10:55:06> Single v4 batch
+2018-09-17 10:55:06> Skipping token checks as using cache
+2018-09-17 10:55:06> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:06> Reading cache
+2018-09-17 10:55:06> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:07> Calculated [1] batches are needed to download approx. [19] rows unsampled.
+2018-09-17 10:55:07> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:55:07> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:55:07> Calling APIv4....
+2018-09-17 10:55:07> Single v4 batch
+2018-09-17 10:55:07> Skipping token checks as using cache
+2018-09-17 10:55:07> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:07> Making new cache
+2018-09-17 10:55:07> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension4"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:12> Downloaded [16] rows from a total of [16].
+2018-09-17 10:55:12> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:12> Anti-sampling failed
+2018-09-17 10:55:13> Finished unsampled data request, total rows [16]
+[1] "Mining Dimension: browser"
+2018-09-17 10:55:13> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:13> Finding how much sampling in data request...
+2018-09-17 10:55:13> Calling APIv4....
+2018-09-17 10:55:13> Single v4 batch
+2018-09-17 10:55:13> Skipping token checks as using cache
+2018-09-17 10:55:13> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:13> Making new cache
+2018-09-17 10:55:13> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:13> Downloaded [10] rows from a total of [23].
+2018-09-17 10:55:13> No sampling found, returning call
+2018-09-17 10:55:13> Calling APIv4....
+2018-09-17 10:55:13> Single v4 batch
+2018-09-17 10:55:13> Skipping token checks as using cache
+2018-09-17 10:55:13> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:14> Making new cache
+2018-09-17 10:55:14> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:14> Downloaded [23] rows from a total of [23].
+[1] "Mining Dimension: socialNetwork"
+2018-09-17 10:55:14> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:14> Finding how much sampling in data request...
+2018-09-17 10:55:14> Calling APIv4....
+2018-09-17 10:55:14> Single v4 batch
+2018-09-17 10:55:14> Skipping token checks as using cache
+2018-09-17 10:55:14> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:14> Making new cache
+2018-09-17 10:55:14> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:15> Downloaded [4] rows from a total of [4].
+2018-09-17 10:55:15> No sampling found, returning call
+2018-09-17 10:55:15> Calling APIv4....
+2018-09-17 10:55:15> Single v4 batch
+2018-09-17 10:55:15> Skipping token checks as using cache
+2018-09-17 10:55:15> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:15> Making new cache
+2018-09-17 10:55:15> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:16> Downloaded [4] rows from a total of [4].
+[1] "Mining Dimension: campaign"
+2018-09-17 10:55:16> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:16> Finding how much sampling in data request...
+2018-09-17 10:55:16> Calling APIv4....
+2018-09-17 10:55:16> Single v4 batch
+2018-09-17 10:55:16> Skipping token checks as using cache
+2018-09-17 10:55:16> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:16> Making new cache
+2018-09-17 10:55:16> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:17> Downloaded [3] rows from a total of [3].
+2018-09-17 10:55:17> No sampling found, returning call
+2018-09-17 10:55:17> Calling APIv4....
+2018-09-17 10:55:17> Single v4 batch
+2018-09-17 10:55:17> Skipping token checks as using cache
+2018-09-17 10:55:17> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:17> Making new cache
+2018-09-17 10:55:17> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:18> Downloaded [3] rows from a total of [3].
+[1] "Mining Dimension: Total"
+2018-09-17 10:55:18> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:18> Finding how much sampling in data request...
+2018-09-17 10:55:18> Calling APIv4....
+2018-09-17 10:55:18> Single v4 batch
+2018-09-17 10:55:18> Skipping token checks as using cache
+2018-09-17 10:55:18> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:18> Making new cache
+2018-09-17 10:55:18> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:18> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:18> No sampling found, returning call
+2018-09-17 10:55:18> Calling APIv4....
+2018-09-17 10:55:18> Single v4 batch
+2018-09-17 10:55:18> Skipping token checks as using cache
+2018-09-17 10:55:18> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:18> Making new cache
+2018-09-17 10:55:18> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:19> Downloaded [1] rows from a total of [1].
+[1] "Mining Dimension: dimension3"
+2018-09-17 10:55:19> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:19> Finding how much sampling in data request...
+2018-09-17 10:55:19> Calling APIv4....
+2018-09-17 10:55:19> Single v4 batch
+2018-09-17 10:55:19> Skipping token checks as using cache
+2018-09-17 10:55:19> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:19> Making new cache
+2018-09-17 10:55:19> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension3"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:20> Downloaded [10] rows from a total of [13].
+2018-09-17 10:55:20> No sampling found, returning call
+2018-09-17 10:55:20> Calling APIv4....
+2018-09-17 10:55:20> Single v4 batch
+2018-09-17 10:55:20> Skipping token checks as using cache
+2018-09-17 10:55:20> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:20> Making new cache
+2018-09-17 10:55:20> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension3"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:21> Downloaded [13] rows from a total of [13].
+[1] "Mining Dimension: dimension4"
+2018-09-17 10:55:21> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:21> Finding how much sampling in data request...
+2018-09-17 10:55:21> Calling APIv4....
+2018-09-17 10:55:21> Single v4 batch
+2018-09-17 10:55:21> Skipping token checks as using cache
+2018-09-17 10:55:21> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:21> Making new cache
+2018-09-17 10:55:21> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension4"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:22> Downloaded [10] rows from a total of [16].
+2018-09-17 10:55:22> No sampling found, returning call
+2018-09-17 10:55:22> Calling APIv4....
+2018-09-17 10:55:22> Single v4 batch
+2018-09-17 10:55:22> Skipping token checks as using cache
+2018-09-17 10:55:22> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:22> Making new cache
+2018-09-17 10:55:22> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension4"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:23> Downloaded [16] rows from a total of [16].
+[1] "Mining Dimension: browser"
+2018-09-17 10:55:23> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:23> Finding how much sampling in data request...
+2018-09-17 10:55:23> Calling APIv4....
+2018-09-17 10:55:23> Single v4 batch
+2018-09-17 10:55:23> Skipping token checks as using cache
+2018-09-17 10:55:23> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:23> Making new cache
+2018-09-17 10:55:23> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:23> Downloaded [10] rows from a total of [23].
+2018-09-17 10:55:23> No sampling found, returning call
+2018-09-17 10:55:23> Calling APIv4....
+2018-09-17 10:55:23> Single v4 batch
+2018-09-17 10:55:23> Skipping token checks as using cache
+2018-09-17 10:55:23> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:23> Making new cache
+2018-09-17 10:55:23> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:24> Downloaded [23] rows from a total of [23].
+[1] "Mining Dimension: socialNetwork"
+2018-09-17 10:55:24> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:24> Finding how much sampling in data request...
+2018-09-17 10:55:24> Calling APIv4....
+2018-09-17 10:55:24> Single v4 batch
+2018-09-17 10:55:24> Skipping token checks as using cache
+2018-09-17 10:55:24> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:24> Making new cache
+2018-09-17 10:55:24> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:25> Downloaded [4] rows from a total of [4].
+2018-09-17 10:55:25> No sampling found, returning call
+2018-09-17 10:55:25> Calling APIv4....
+2018-09-17 10:55:25> Single v4 batch
+2018-09-17 10:55:25> Skipping token checks as using cache
+2018-09-17 10:55:25> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:25> Making new cache
+2018-09-17 10:55:25> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:25> Downloaded [4] rows from a total of [4].
+[1] "Mining Dimension: campaign"
+2018-09-17 10:55:25> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:25> Finding how much sampling in data request...
+2018-09-17 10:55:25> Calling APIv4....
+2018-09-17 10:55:25> Single v4 batch
+2018-09-17 10:55:25> Skipping token checks as using cache
+2018-09-17 10:55:25> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:25> Making new cache
+2018-09-17 10:55:25> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:26> Downloaded [3] rows from a total of [3].
+2018-09-17 10:55:26> No sampling found, returning call
+2018-09-17 10:55:26> Calling APIv4....
+2018-09-17 10:55:26> Single v4 batch
+2018-09-17 10:55:26> Skipping token checks as using cache
+2018-09-17 10:55:26> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:27> Making new cache
+2018-09-17 10:55:27> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:27> Downloaded [3] rows from a total of [3].
+[1] "Mining Dimension: Total"
+2018-09-17 10:55:27> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:27> Finding how much sampling in data request...
+2018-09-17 10:55:27> Calling APIv4....
+2018-09-17 10:55:27> Single v4 batch
+2018-09-17 10:55:27> Skipping token checks as using cache
+2018-09-17 10:55:27> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:27> Making new cache
+2018-09-17 10:55:27> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:28> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:28> No sampling found, returning call
+2018-09-17 10:55:28> Calling APIv4....
+2018-09-17 10:55:28> Single v4 batch
+2018-09-17 10:55:28> Skipping token checks as using cache
+2018-09-17 10:55:28> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:28> Making new cache
+2018-09-17 10:55:28> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:28> Downloaded [1] rows from a total of [1].
+[1] "Mining Dimension: browser"
+2018-09-17 10:55:28> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:28> Finding how much sampling in data request...
+2018-09-17 10:55:29> Calling APIv4....
+2018-09-17 10:55:29> Single v4 batch
+2018-09-17 10:55:29> Skipping token checks as using cache
+2018-09-17 10:55:29> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:29> Making new cache
+2018-09-17 10:55:29> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"}],"metrics":[{"expression":"ga:avgSessionDuration","alias":"avgSessionDuration","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:29> Downloaded [10] rows from a total of [23].
+2018-09-17 10:55:29> No sampling found, returning call
+2018-09-17 10:55:29> Calling APIv4....
+2018-09-17 10:55:29> Single v4 batch
+2018-09-17 10:55:29> Skipping token checks as using cache
+2018-09-17 10:55:29> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:29> Making new cache
+2018-09-17 10:55:29> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"}],"metrics":[{"expression":"ga:avgSessionDuration","alias":"avgSessionDuration","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:30> Downloaded [23] rows from a total of [23].
+[1] "Mining Dimension: socialNetwork"
+2018-09-17 10:55:30> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:30> Finding how much sampling in data request...
+2018-09-17 10:55:30> Calling APIv4....
+2018-09-17 10:55:30> Single v4 batch
+2018-09-17 10:55:30> Skipping token checks as using cache
+2018-09-17 10:55:30> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:30> Making new cache
+2018-09-17 10:55:30> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"}],"metrics":[{"expression":"ga:avgSessionDuration","alias":"avgSessionDuration","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:31> Downloaded [4] rows from a total of [4].
+2018-09-17 10:55:31> No sampling found, returning call
+2018-09-17 10:55:31> Calling APIv4....
+2018-09-17 10:55:31> Single v4 batch
+2018-09-17 10:55:31> Skipping token checks as using cache
+2018-09-17 10:55:31> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:31> Making new cache
+2018-09-17 10:55:31> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"}],"metrics":[{"expression":"ga:avgSessionDuration","alias":"avgSessionDuration","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:31> Downloaded [4] rows from a total of [4].
+[1] "Mining Dimension: campaign"
+2018-09-17 10:55:31> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:31> Finding how much sampling in data request...
+2018-09-17 10:55:31> Calling APIv4....
+2018-09-17 10:55:31> Single v4 batch
+2018-09-17 10:55:31> Skipping token checks as using cache
+2018-09-17 10:55:31> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:31> Making new cache
+2018-09-17 10:55:31> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"}],"metrics":[{"expression":"ga:avgSessionDuration","alias":"avgSessionDuration","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:32> Downloaded [3] rows from a total of [3].
+2018-09-17 10:55:32> No sampling found, returning call
+2018-09-17 10:55:32> Calling APIv4....
+2018-09-17 10:55:32> Single v4 batch
+2018-09-17 10:55:32> Skipping token checks as using cache
+2018-09-17 10:55:32> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:32> Making new cache
+2018-09-17 10:55:32> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"}],"metrics":[{"expression":"ga:avgSessionDuration","alias":"avgSessionDuration","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:33> Downloaded [3] rows from a total of [3].
+[1] "Mining Dimension: Total"
+2018-09-17 10:55:33> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:33> Finding how much sampling in data request...
+2018-09-17 10:55:33> Calling APIv4....
+2018-09-17 10:55:33> Single v4 batch
+2018-09-17 10:55:33> Skipping token checks as using cache
+2018-09-17 10:55:33> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:33> Making new cache
+2018-09-17 10:55:33> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"}],"metrics":[{"expression":"ga:avgSessionDuration","alias":"avgSessionDuration","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:33> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:33> No sampling found, returning call
+2018-09-17 10:55:33> Calling APIv4....
+2018-09-17 10:55:33> Single v4 batch
+2018-09-17 10:55:33> Skipping token checks as using cache
+2018-09-17 10:55:33> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:33> Making new cache
+2018-09-17 10:55:33> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"}],"metrics":[{"expression":"ga:avgSessionDuration","alias":"avgSessionDuration","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:34> Downloaded [1] rows from a total of [1].
+[1] "Mining Dimension: dimension3"
+2018-09-17 10:55:34> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:34> Finding how much sampling in data request...
+2018-09-17 10:55:34> Calling APIv4....
+2018-09-17 10:55:34> Single v4 batch
+2018-09-17 10:55:34> Skipping token checks as using cache
+2018-09-17 10:55:34> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:34> Making new cache
+2018-09-17 10:55:34> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension3"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:36> Downloaded [10] rows from a total of [13].
+2018-09-17 10:55:36> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:36> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:55:36> Calling APIv4....
+2018-09-17 10:55:36> Single v4 batch
+2018-09-17 10:55:36> Skipping token checks as using cache
+2018-09-17 10:55:36> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:36> Reading cache
+2018-09-17 10:55:37> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:37> Calculated [1] batches are needed to download approx. [16] rows unsampled.
+2018-09-17 10:55:37> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:55:37> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:55:37> Calling APIv4....
+2018-09-17 10:55:37> Single v4 batch
+2018-09-17 10:55:37> Skipping token checks as using cache
+2018-09-17 10:55:37> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:37> Making new cache
+2018-09-17 10:55:37> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension3"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:40> Downloaded [13] rows from a total of [13].
+2018-09-17 10:55:40> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:40> Anti-sampling failed
+2018-09-17 10:55:40> Finished unsampled data request, total rows [13]
+[1] "Mining Dimension: dimension4"
+2018-09-17 10:55:40> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:40> Finding how much sampling in data request...
+2018-09-17 10:55:40> Calling APIv4....
+2018-09-17 10:55:40> Single v4 batch
+2018-09-17 10:55:40> Skipping token checks as using cache
+2018-09-17 10:55:40> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:40> Making new cache
+2018-09-17 10:55:40> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension4"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:43> Downloaded [10] rows from a total of [16].
+2018-09-17 10:55:43> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:43> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:55:43> Calling APIv4....
+2018-09-17 10:55:43> Single v4 batch
+2018-09-17 10:55:43> Skipping token checks as using cache
+2018-09-17 10:55:43> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:43> Reading cache
+2018-09-17 10:55:43> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:43> Calculated [1] batches are needed to download approx. [19] rows unsampled.
+2018-09-17 10:55:43> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:55:43> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:55:43> Calling APIv4....
+2018-09-17 10:55:43> Single v4 batch
+2018-09-17 10:55:43> Skipping token checks as using cache
+2018-09-17 10:55:43> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:43> Making new cache
+2018-09-17 10:55:43> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension4"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:46> Downloaded [16] rows from a total of [16].
+2018-09-17 10:55:46> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:46> Anti-sampling failed
+2018-09-17 10:55:46> Finished unsampled data request, total rows [16]
+[1] "Mining Dimension: browser"
+2018-09-17 10:55:46> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:46> Finding how much sampling in data request...
+2018-09-17 10:55:46> Calling APIv4....
+2018-09-17 10:55:46> Single v4 batch
+2018-09-17 10:55:46> Skipping token checks as using cache
+2018-09-17 10:55:47> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:47> Making new cache
+2018-09-17 10:55:47> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:49> Downloaded [10] rows from a total of [21].
+2018-09-17 10:55:49> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:49> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:55:49> Calling APIv4....
+2018-09-17 10:55:49> Single v4 batch
+2018-09-17 10:55:49> Skipping token checks as using cache
+2018-09-17 10:55:49> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:49> Reading cache
+2018-09-17 10:55:49> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:49> Calculated [1] batches are needed to download approx. [25] rows unsampled.
+2018-09-17 10:55:49> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:55:49> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:55:49> Calling APIv4....
+2018-09-17 10:55:49> Single v4 batch
+2018-09-17 10:55:49> Skipping token checks as using cache
+2018-09-17 10:55:49> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:49> Making new cache
+2018-09-17 10:55:49> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:51> Downloaded [21] rows from a total of [21].
+2018-09-17 10:55:51> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:51> Anti-sampling failed
+2018-09-17 10:55:51> Finished unsampled data request, total rows [21]
+[1] "Mining Dimension: socialNetwork"
+2018-09-17 10:55:51> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:51> Finding how much sampling in data request...
+2018-09-17 10:55:51> Calling APIv4....
+2018-09-17 10:55:51> Single v4 batch
+2018-09-17 10:55:51> Skipping token checks as using cache
+2018-09-17 10:55:51> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:51> Making new cache
+2018-09-17 10:55:51> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:52> Downloaded [4] rows from a total of [4].
+2018-09-17 10:55:52> No sampling found, returning call
+2018-09-17 10:55:52> Calling APIv4....
+2018-09-17 10:55:52> Single v4 batch
+2018-09-17 10:55:52> Skipping token checks as using cache
+2018-09-17 10:55:52> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:52> Making new cache
+2018-09-17 10:55:52> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:52> Downloaded [4] rows from a total of [4].
+[1] "Mining Dimension: campaign"
+2018-09-17 10:55:52> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:52> Finding how much sampling in data request...
+2018-09-17 10:55:52> Calling APIv4....
+2018-09-17 10:55:52> Single v4 batch
+2018-09-17 10:55:52> Skipping token checks as using cache
+2018-09-17 10:55:52> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:52> Making new cache
+2018-09-17 10:55:52> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:53> Downloaded [3] rows from a total of [3].
+2018-09-17 10:55:53> No sampling found, returning call
+2018-09-17 10:55:53> Calling APIv4....
+2018-09-17 10:55:53> Single v4 batch
+2018-09-17 10:55:53> Skipping token checks as using cache
+2018-09-17 10:55:53> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:53> Making new cache
+2018-09-17 10:55:53> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:54> Downloaded [3] rows from a total of [3].
+[1] "Mining Dimension: Total"
+2018-09-17 10:55:54> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:54> Finding how much sampling in data request...
+2018-09-17 10:55:54> Calling APIv4....
+2018-09-17 10:55:54> Single v4 batch
+2018-09-17 10:55:54> Skipping token checks as using cache
+2018-09-17 10:55:54> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:54> Making new cache
+2018-09-17 10:55:54> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:55> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:55> No sampling found, returning call
+2018-09-17 10:55:55> Calling APIv4....
+2018-09-17 10:55:55> Single v4 batch
+2018-09-17 10:55:55> Skipping token checks as using cache
+2018-09-17 10:55:55> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:55> Making new cache
+2018-09-17 10:55:55> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"}],"metrics":[{"expression":"ga:avgTimeOnPage","alias":"avgTimeOnPage","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:55:55> Downloaded [1] rows from a total of [1].
+[1] "Mining Dimension: dimension3"
+2018-09-17 10:55:55> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:55:55> Finding how much sampling in data request...
+2018-09-17 10:55:55> Calling APIv4....
+2018-09-17 10:55:55> Single v4 batch
+2018-09-17 10:55:55> Skipping token checks as using cache
+2018-09-17 10:55:55> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:55> Making new cache
+2018-09-17 10:55:55> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension3"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:55:58> Downloaded [10] rows from a total of [26].
+2018-09-17 10:55:58> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:55:58> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:55:58> Calling APIv4....
+2018-09-17 10:55:58> Single v4 batch
+2018-09-17 10:55:58> Skipping token checks as using cache
+2018-09-17 10:55:58> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:58> Reading cache
+2018-09-17 10:55:58> Downloaded [1] rows from a total of [1].
+2018-09-17 10:55:58> Calculated [1] batches are needed to download approx. [31] rows unsampled.
+2018-09-17 10:55:58> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:55:58> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:55:58> Calling APIv4....
+2018-09-17 10:55:58> Single v4 batch
+2018-09-17 10:55:58> Skipping token checks as using cache
+2018-09-17 10:55:58> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:55:58> Making new cache
+2018-09-17 10:55:58> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension3"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:56:00> Downloaded [26] rows from a total of [26].
+2018-09-17 10:56:00> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:00> Anti-sampling failed
+2018-09-17 10:56:00> Finished unsampled data request, total rows [26]
+[1] "Mining Dimension: dimension4"
+2018-09-17 10:56:00> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:56:00> Finding how much sampling in data request...
+2018-09-17 10:56:00> Calling APIv4....
+2018-09-17 10:56:00> Single v4 batch
+2018-09-17 10:56:00> Skipping token checks as using cache
+2018-09-17 10:56:00> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:00> Making new cache
+2018-09-17 10:56:01> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension4"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:56:03> Downloaded [10] rows from a total of [31].
+2018-09-17 10:56:03> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:03> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:56:03> Calling APIv4....
+2018-09-17 10:56:03> Single v4 batch
+2018-09-17 10:56:03> Skipping token checks as using cache
+2018-09-17 10:56:03> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:03> Reading cache
+2018-09-17 10:56:03> Downloaded [1] rows from a total of [1].
+2018-09-17 10:56:03> Calculated [1] batches are needed to download approx. [37] rows unsampled.
+2018-09-17 10:56:03> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:56:03> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:56:03> Calling APIv4....
+2018-09-17 10:56:03> Single v4 batch
+2018-09-17 10:56:03> Skipping token checks as using cache
+2018-09-17 10:56:03> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:03> Making new cache
+2018-09-17 10:56:03> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension4"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:56:07> Downloaded [31] rows from a total of [31].
+2018-09-17 10:56:07> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:07> Anti-sampling failed
+2018-09-17 10:56:07> Finished unsampled data request, total rows [31]
+[1] "Mining Dimension: browser"
+2018-09-17 10:56:07> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:56:07> Finding how much sampling in data request...
+2018-09-17 10:56:07> Calling APIv4....
+2018-09-17 10:56:07> Single v4 batch
+2018-09-17 10:56:07> Skipping token checks as using cache
+2018-09-17 10:56:07> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:07> Making new cache
+2018-09-17 10:56:07> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:56:09> Downloaded [10] rows from a total of [37].
+2018-09-17 10:56:09> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:09> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:56:09> Calling APIv4....
+2018-09-17 10:56:09> Single v4 batch
+2018-09-17 10:56:09> Skipping token checks as using cache
+2018-09-17 10:56:09> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:09> Reading cache
+2018-09-17 10:56:09> Downloaded [1] rows from a total of [1].
+2018-09-17 10:56:09> Calculated [1] batches are needed to download approx. [44] rows unsampled.
+2018-09-17 10:56:09> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:56:09> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:56:09> Calling APIv4....
+2018-09-17 10:56:09> Single v4 batch
+2018-09-17 10:56:09> Skipping token checks as using cache
+2018-09-17 10:56:09> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:09> Making new cache
+2018-09-17 10:56:09> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:browser"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:56:12> Downloaded [37] rows from a total of [37].
+2018-09-17 10:56:12> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:12> Anti-sampling failed
+2018-09-17 10:56:13> Finished unsampled data request, total rows [37]
+[1] "Mining Dimension: socialNetwork"
+2018-09-17 10:56:13> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:56:13> Finding how much sampling in data request...
+2018-09-17 10:56:13> Calling APIv4....
+2018-09-17 10:56:13> Single v4 batch
+2018-09-17 10:56:13> Skipping token checks as using cache
+2018-09-17 10:56:13> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:13> Making new cache
+2018-09-17 10:56:13> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:56:15> Downloaded [7] rows from a total of [7].
+2018-09-17 10:56:15> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:15> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:56:15> Calling APIv4....
+2018-09-17 10:56:15> Single v4 batch
+2018-09-17 10:56:15> Skipping token checks as using cache
+2018-09-17 10:56:15> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:15> Reading cache
+2018-09-17 10:56:15> Downloaded [1] rows from a total of [1].
+2018-09-17 10:56:15> Calculated [1] batches are needed to download approx. [8] rows unsampled.
+2018-09-17 10:56:15> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:56:15> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:56:15> Calling APIv4....
+2018-09-17 10:56:15> Single v4 batch
+2018-09-17 10:56:15> Skipping token checks as using cache
+2018-09-17 10:56:16> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:16> Making new cache
+2018-09-17 10:56:16> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:socialNetwork"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:56:19> Downloaded [7] rows from a total of [7].
+2018-09-17 10:56:19> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:19> Anti-sampling failed
+2018-09-17 10:56:19> Finished unsampled data request, total rows [7]
+[1] "Mining Dimension: campaign"
+2018-09-17 10:56:19> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:56:19> Finding how much sampling in data request...
+2018-09-17 10:56:19> Calling APIv4....
+2018-09-17 10:56:19> Single v4 batch
+2018-09-17 10:56:19> Skipping token checks as using cache
+2018-09-17 10:56:19> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:19> Making new cache
+2018-09-17 10:56:19> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:56:21> Downloaded [6] rows from a total of [6].
+2018-09-17 10:56:21> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:21> Finding number of sessions for anti-sample calculations...
+2018-09-17 10:56:21> Calling APIv4....
+2018-09-17 10:56:21> Single v4 batch
+2018-09-17 10:56:21> Skipping token checks as using cache
+2018-09-17 10:56:21> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:21> Reading cache
+2018-09-17 10:56:21> Downloaded [1] rows from a total of [1].
+2018-09-17 10:56:21> Calculated [1] batches are needed to download approx. [7] rows unsampled.
+2018-09-17 10:56:21> Found [435257] sampleReadCounts from a [810670] samplingSpaceSize.
+2018-09-17 10:56:21> Anti-sample call covering 1 days: 2018-09-16, 2018-09-16
+2018-09-17 10:56:21> Calling APIv4....
+2018-09-17 10:56:21> Single v4 batch
+2018-09-17 10:56:21> Skipping token checks as using cache
+2018-09-17 10:56:21> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:21> Making new cache
+2018-09-17 10:56:21> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:campaign"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:56:24> Downloaded [6] rows from a total of [6].
+2018-09-17 10:56:24> Data is sampled, based on 59.7% of sessions.
+2018-09-17 10:56:24> Anti-sampling failed
+2018-09-17 10:56:24> Finished unsampled data request, total rows [6]
+[1] "Mining Dimension: Total"
+2018-09-17 10:56:24> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:56:24> Finding how much sampling in data request...
+2018-09-17 10:56:24> Calling APIv4....
+2018-09-17 10:56:24> Single v4 batch
+2018-09-17 10:56:24> Skipping token checks as using cache
+2018-09-17 10:56:24> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:24> Making new cache
+2018-09-17 10:56:24> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:56:25> Downloaded [2] rows from a total of [2].
+2018-09-17 10:56:25> No sampling found, returning call
+2018-09-17 10:56:25> Calling APIv4....
+2018-09-17 10:56:25> Single v4 batch
+2018-09-17 10:56:25> Skipping token checks as using cache
+2018-09-17 10:56:25> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:56:25> Making new cache
+2018-09-17 10:56:25> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:visitorType"}],"metrics":[{"expression":"ga:users","alias":"users","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:56:26> Downloaded [2] rows from a total of [2].
+[1] "2018-08-20"
+[1] "2018-08-21"
+[1] "2018-08-22"
+[1] "2018-08-23"
+[1] "2018-08-24"
+[1] "2018-08-25"
+[1] "2018-08-26"
+[1] "2018-08-27"
+[1] "2018-08-28"
+[1] "2018-08-29"
+[1] "2018-08-30"
+[1] "2018-08-31"
+[1] "2018-09-01"
+[1] "2018-09-02"
+[1] "2018-09-03"
+[1] "2018-09-04"
+[1] "2018-09-05"
+[1] "2018-09-06"
+[1] "2018-09-07"
+[1] "2018-09-08"
+[1] "2018-09-09"
+[1] "2018-09-10"
+[1] "2018-09-11"
+[1] "2018-09-12"
+[1] "2018-09-13"
+[1] "2018-09-14"
+[1] "2018-09-15"
+[1] "2018-09-16"
+[1] "12502"
+[1] "5223"
+[1] "1232"
+[1] "2caef3e7-cd4d-410d-993c-c018e6fe57cc"
+[1] "3197"
+[1] "10279"
+[1] "7900ec0d-131c-4297-9347-b16b95137037"
+[1] "8040"
+[1] "14587"
+[1] "4cedcce3-fc23-4397-a2fa-9317d2cfc1f8"
+[1] "82e417e6-1e65-4a8f-a0b3-475d585d05a4"
+[1] "1211"
+[1] "6f52d74f-804b-496b-af43-64c8f790d19a"
+[1] "49015ae1-c332-46ee-9db8-3dc17e7af6df"
+[1] "8954"
+[1] "6389"
+[1] "Mining Dimension: Total"
+2018-09-17 10:57:49> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:57:49> Finding how much sampling in data request...
+2018-09-17 10:57:49> Calling APIv4....
+2018-09-17 10:57:49> Single v4 batch
+2018-09-17 10:57:49> Skipping token checks as using cache
+2018-09-17 10:57:49> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:57:49> Making new cache
+2018-09-17 10:57:49> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:57:50> Downloaded [10] rows from a total of [4414].
+2018-09-17 10:57:50> No sampling found, returning call
+2018-09-17 10:57:50> Calling APIv4....
+2018-09-17 10:57:50> Single v4 batch
+2018-09-17 10:57:50> Skipping token checks as using cache
+2018-09-17 10:57:50> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:57:50> Making new cache
+2018-09-17 10:57:50> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-09-16","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:58:03> Downloaded [4414] rows from a total of [4414].
+Auto-refreshing stale OAuth token.
+Sheet successfully identified: "Tentative Finance KPI Input Sheet"
+Accessing worksheet titled 'Revenue'.
+Parsed with column specification:
+cols(
+  .default = col_integer(),
+  `Week #` = col_character()
+)
+See spec(...) for full column specifications.
+Warning message:
+Duplicated column names deduplicated: '01: JAN01' => '01: JAN01_1' [68] 
+Accessing worksheet titled 'Costs'.
+Parsed with column specification:
+cols(
+  .default = col_integer(),
+  `Week #` = col_character()
+)
+See spec(...) for full column specifications.
+Warning message:
+Duplicated column names deduplicated: '01: JAN01' => '01: JAN01_1' [68] 
+[1] "Mining Dimension: Total"
+2018-09-17 10:58:15> anti_sample set to TRUE. Mitigating sampling via multiple API calls.
+2018-09-17 10:58:15> Finding how much sampling in data request...
+2018-09-17 10:58:15> Calling APIv4....
+2018-09-17 10:58:15> Single v4 batch
+2018-09-17 10:58:15> Skipping token checks as using cache
+2018-09-17 10:58:16> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:58:16> Making new cache
+2018-09-17 10:58:16> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-08-20","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10,"includeEmptyRows":true}]}
+2018-09-17 10:58:18> Downloaded [10] rows from a total of [55268].
+2018-09-17 10:58:18> No sampling found, returning call
+2018-09-17 10:58:18> Calling APIv4....
+2018-09-17 10:58:18> Single v4 batch
+2018-09-17 10:58:18> Skipping token checks as using cache
+2018-09-17 10:58:18> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:58:18> Making new cache
+2018-09-17 10:58:18> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-08-20","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"0","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 10:58:41> Downloaded [10000] rows from a total of [55268].
+2018-09-17 10:58:41> Calling APIv4....
+2018-09-17 10:58:41> Single v4 batch
+2018-09-17 10:58:41> Skipping token checks as using cache
+2018-09-17 10:58:41> Request: https://analyticsreporting.googleapis.com/v4/reports:batchGet/
+2018-09-17 10:58:41> Making new cache
+2018-09-17 10:58:41> Body JSON parsed to: {"reportRequests":[{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-08-20","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"10000","pageSize":10000,"includeEmptyRows":true},{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-08-20","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"20000","pageSize":10000,"includeEmptyRows":true},{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-08-20","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"30000","pageSize":10000,"includeEmptyRows":true},{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-08-20","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"40000","pageSize":10000,"includeEmptyRows":true},{"viewId":"ga:82531051","dateRanges":[{"startDate":"2018-08-20","endDate":"2018-09-16"}],"samplingLevel":"LARGE","dimensions":[{"name":"ga:year"},{"name":"ga:week"},{"name":"ga:dimension5"}],"metrics":[{"expression":"ga:pageviews","alias":"pageviews","formattingType":"METRIC_TYPE_UNSPECIFIED"}],"pageToken":"50000","pageSize":10000,"includeEmptyRows":true}]}
+2018-09-17 11:00:11> Downloaded [45268] rows from a total of [55268].
+2018-09-17 11:00:11> All data downloaded, total of [55268] - download time: 1.880814 mins
+[1] "c5cb3458-9c55-47b3-9edf-b8e975a7cfa1"
+[1] "10099"
+[1] "a0574ae2-c7a8-44dd-ad1b-98b4738b555c"
+[1] "129bf0ec-f17c-4a1b-94a1-3c641551b1db"
+[1] "966"
+[1] "11082"
+[1] "7020"
+[1] "03317ecb-0a0d-4920-a799-5776f59546f4"
+[1] "25"
+[1] "6506"
+[1] "2ea87034-f4ae-4289-a337-45a9f9de3e56"
+[1] "8082"
+[1] "8526c7c9-73c2-4110-a53a-ce83b5df8bbf"
+[1] "9523"
+[1] "39b23684-7dba-46db-9478-366494d6c727"
+[1] "421"
+[1] "16e6671d-5193-4132-9bd1-3c202dc7cbb2"
+[1] "80bc2bd9-8251-46ab-b292-97f554101563"
+[1] "10141"
+[1] "e147d006-7631-41d0-a8f8-61609a7773ea"
+[1] "14412"
+[1] "6141"
+[1] "10380"
+[1] "9b5ed7bc-53e8-4979-8b3f-da63a34c569e"
+[1] "dd1d1410-850f-41eb-966a-c7ba326f6d48"
+[1] "b6f4daa2-1c5d-4a4c-9a94-55e1b0dc7f61"
+[1] "17f742e8-a645-4ef6-b3a2-266250fe1d6a"
+[1] "81ed3b98-230c-461e-8365-2b56bb0e8401"
+[1] "c7d14059-1d50-42b6-bf62-37a4d224703f"
+[1] "44fba191-4b91-4002-a217-cb6dfe13dfb1"
+[1] "3bf451f2-a52c-46dc-8f2b-d1c56a577368"
+[1] "8134871d-6c7b-4300-8119-b033e469125e"
+[1] "6e74df76-28dc-4429-828b-b004aeb57223"
+[1] "3abc1ca5-81de-49ad-a809-240817514ab6"
+[1] "c454e2f0-2ed1-4f26-a884-60435c213d0a"
+[1] "dfe66cd5-93de-44e2-813c-f926aa965d6b"
+[1] "49015ae1-c332-46ee-9db8-3dc17e7af6df"
+[1] "1216"
+[1] "7033"
+[1] "9c988207-bd53-4ffe-8d2a-cf0ef39d048c"
+[1] "2c431006-191f-4d1e-84d8-e58199588b1e"
+[1] "00c0535c-695f-4144-922c-9416829ba0b0"
+[1] "089ff0f1-e106-436e-9dde-393e0a6e71f4"
+[1] "ee841d2a-51f0-4cd6-add1-0e4eb5e2e8a0"
+[1] "1998351f-aabf-45b9-8f7c-e00d3d249fbd"
+[1] "68e71725-6694-4973-8403-0c7ed153cbf6"
+[1] "77e9cf83-0a0e-4315-b04b-d23ba375c3b2"
+[1] "592f0bec-2454-44fa-b1fd-a20c1841bd32"
+[1] "8925"
+[1] "3197"
+[1] "cc33b20f-e596-4add-90fb-5b23688fefc7"
+[1] "159460ec-7c9d-4e53-a237-3cada0d7b242"
+[1] "c88e3ed8-3208-4443-91d1-d293e356b13c"
+[1] "fff5a2aa-3d1c-4103-939c-a098e08f02d9"
+[1] "5de0a938-49ed-4a5e-a268-a0843e8cd15f"
+[1] "22530505-e40c-4099-b8da-e43c4c2573bc"
+[1] "4b034cfa-5369-4cac-a72d-e8532210aefc"
+[1] "35e95662-df00-493c-a0a2-994bd44de967"
+[1] "d69d7f6f-cf1e-48df-acb2-c98c5676fb36"
+[1] "cf047ec4-f3ac-4b41-8ea0-6decab98b616"
+[1] "8230"
+[1] "27ae20dd-2517-42d2-8f42-25889bb420e2"
+[1] "02d4017a-ac02-47fb-a762-8d81a1f46758"
+[1] "14126"
+[1] "14147"
+[1] "90ae4697-df61-4aa7-ba8d-592ac5f068ff"
+[1] "805"
+[1] "1ed83611-94b2-4911-a555-4e1d6b708b07"
+[1] "6f52d74f-804b-496b-af43-64c8f790d19a"
+[1] "4cfa4037-99e2-4235-82d8-03b1ac785246"
+[1] "a1b03f51-a6cf-4c48-9f04-dd2652c4d64e"
+[1] "4148e930-299f-4a41-9886-1533ff8cf6ef"
+[1] "77114397-7e97-4496-b8c6-7c65ee75bfd3"
+[1] "da143623-efe4-479d-89ee-3cde7b0ebc98"
+[1] "bf64ae96-a423-4c94-a007-5c7326a45a40"
+[1] "8ea27343-2724-4b56-a6d2-23b1b995d9d4"
+[1] "eb7cdf4c-f257-4f78-8590-1e899f9ad296"
+[1] "3bcf0cb8-1e71-4d71-9a5f-466d4b0b1b6b"
+[1] "12502"
+[1] "e582e2e9-1c7b-4bac-8411-0728280ba746"
+[1] "62c6e16e-2746-4e01-9d39-51f4c37be78f"
+[1] "3700308b-d32e-4bf8-b8d0-e7da5e670d35"
+[1] "d6ee543e-4216-44fc-b666-4bb129a73461"
+[1] "6599"
+[1] "14587"
+[1] "d8ea61ff-d1dd-4e09-9c03-56e267117397"
+[1] "3898c22e-5ae8-4154-92f6-53c57b44a893"
+[1] "f6979a90-fa7b-4337-aba2-28962bd19a61"
+[1] "1ae42219-206c-4826-bc4b-60fa7484a1bd"
+[1] "c8acc427-6ecf-49ea-a203-d8541df1e56f"
+[1] "6361"
+[1] "309f4576-29cc-48ee-9ce3-6e79c3470871"
+[1] "a19704ff-7e15-4e62-a613-a280274909dc"
+[1] "a5497d59-e411-4444-9c60-77a2cea6ff8a"
+[1] "559c61d4-6527-4ab2-a654-856b4412cfb8"
+[1] "14258"
+[1] "1211"
+[1] "d0c8a8b4-889b-40e1-9139-481f25d8557b"
+[1] "10279"
+[1] "11501"
+[1] "1ad03503-d1b0-4ab6-9de5-13f0476c7204"
+[1] "14068"
+[1] "830b0a70-e337-4648-b840-c82bff4636c2"
+[1] "6389"
+[1] "14249"
+[1] "2caef3e7-cd4d-410d-993c-c018e6fe57cc"
+[1] "08118820-6f7b-4e71-84d6-26f2b6bf3131"
+[1] "795de9d0-4dc5-42f1-88ea-91dd7c6123e4"
+[1] "4598281a-99d0-4f38-9611-daa528a9bf07"
+[1] "5310"
+[1] "6623"
+[1] "565d6f98-ee7f-4353-93e7-d93b64f5f902"
+[1] "ccf60e3e-986f-41ef-bf6c-a2989e818edd"
+[1] "8664"
+[1] "7298"
+[1] "f13c040b-7419-4f25-a440-fe905cf7a2b9"
+[1] "4b7480e4-99c9-42da-8f4b-2975bafc5527"
+[1] "6b5c3929-2dff-422c-b512-09a01e89a2dd"
+[1] "73a3cd02-dbba-4a58-9f0b-6ed7e50cd944"
+[1] "f895e73a-a857-4e02-a7fb-fc112762884c"
+[1] "6362e89b-50d8-404f-b62c-59e6bc5d07ba"
+[1] "1208"
+[1] "812cac98-6b5d-4a1d-98c6-57d432dc9300"
+[1] "52aae9ed-22dd-43f9-866c-a162a4f93de7"
+[1] "1232"
+[1] "8383"
+[1] "8725"
+[1] "302ba497-cbd0-4320-9af6-c1ca458233cf"
+[1] "471c8394-b69f-48c6-81bb-53464aa17704"
+[1] "11108"
+[1] "a01fcb7f-38e7-444e-8848-c8cfd3c6ce89"
+[1] "a349aa74-6ccd-440f-80b1-21cc23da9340"
+[1] "cebe767c-7fb5-4ea2-af1c-be6a3dd39249"
+[1] "b14a9cbe-0131-4192-b538-943af6c858df"
+[1] "8c08b10f-ef9d-45d2-9a1c-b77d821c3b95"
+[1] "07203efd-8fc6-42e6-824f-5cda935346ff"
+[1] "f47c6b16-d714-4a02-a6d3-6e065b4204a1"
+[1] "c984309b-1687-4c7b-8492-e3fb4b078aa4"
+[1] "f7806994-766a-4972-a3b7-ce430459ef03"
+[1] "b503741e-aa04-4ac1-a980-a38190387c0c"
+[1] "4cedcce3-fc23-4397-a2fa-9317d2cfc1f8"
+[1] "0251102b-6f20-4a70-9ddd-962ba05e729f"
+[1] "d35806a7-b50e-440b-83ae-f330518cd805"
+[1] "612bf6b0-cb45-447b-9ef2-d92a6e86898e"
+[1] "b2ca10bd-152d-4436-9457-bcebdb8ed6ec"
+[1] "2b80e6ce-b1a9-493a-aeb3-044d93dfe3d8"
+[1] "9b03a982-9db6-4dfa-ac3a-d002a003b944"
+[1] "87093dfa-07b5-4761-bcc1-c8c02aaca727"
+[1] "14057"
+[1] "2ca6b8fc-b811-42c1-98d7-10e7246938c5"
+[1] "9b6353c4-e336-42b6-bcd7-26aafba96305"
+[1] "aa89c2fe-4d0b-4c15-b82c-8194ca348bc9"
+[1] "0a80e3f9-bd36-4445-8a17-28beb5dd75c4"
+[1] "d22b3d84-5477-4395-a970-99e1e38523bb"
+[1] "510eded6-d661-470c-8d6e-66651f818cde"
+[1] "b3ac7440-fbab-40cc-be03-779c09cc4587"
+[1] "10689"
+[1] "4f0d0e3d-726c-4232-ab93-18dab5486aa9"
+[1] "1dd1ea35-b3cd-47d8-b7f4-d5b2196e3d5f"
+[1] "14130"
+[1] "ee64b5fa-5563-4bd7-8329-c3fb33eee6cb"
+[1] "9344"
+[1] "1244ef05-4663-4f14-b231-eff9ee6978e8"
+[1] "de6c30c4-d50a-4434-920c-cb4e19699dd0"
+[1] "8384"
+[1] "bf8ec32e-a23c-4f0e-9663-0ca5cbfd14ec"
+[1] "3d982353-1d44-4f56-8282-2d8bc9db98c5"
+[1] "9669"
+[1] "c208482c-a9de-4f91-b182-793dfbb5571a"
+[1] "eefc2b8b-30ee-4f6b-89e9-4aa14464fd57"
+[1] "e73fc988-06a9-4137-aa57-941429f149c4"
+[1] "0dc8a894-2a22-4460-88ec-814e61648bb1"
